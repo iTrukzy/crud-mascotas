@@ -1,8 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
-import { AiOutlineConsoleSql } from 'react-icons/ai'
 import Styled from 'styled-components'
-import Loader from './Loader'
 import ModalView from './ModalView'
 
 const CrudList = ({name, specie, age, description, id, getData, setTotalDeleted, totalDeleted, setTotalUpdated, totalUpdated}) => {
